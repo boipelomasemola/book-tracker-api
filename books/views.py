@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
+def login_view(request):
+    return render(request, 'login.html')
 from rest_framework import viewsets
 from .models import Book
 from .serializers import BookSerializer

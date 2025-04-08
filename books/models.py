@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 class Book(models.Model):
     STATUS_CHOICES = [
-        ('to_read', 'To Read'),
+        ('available', 'Available'),
         ('reading', 'Reading'),
         ('finished', 'Finished')
     ]
